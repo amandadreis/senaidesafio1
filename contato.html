@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu site</title>
+</head>
+
+<body>
+    <header>
+        <section>
+        <img src="./imagens/logo page amanda.png" alt="logo the rock kirby" height="200px" width="200px">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Início </a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <article>
+                    <h1>Formulário de Contato</h1>
+                    <p>Preencha os dados abaixo caraio</p>
+                    
+                    <fieldset>
+                        <legend>
+                            <h5>Dados de Contato</h5>
+                        </legend>
+                        <form id="frmInscricao" action="contato.php" method="POST">
+
+                            <label>Nome:</label> <br>
+                            <input type="text" required="required" id="txtNome" maxlength="100" size="50"><br><br>
+
+                            <label>Sexo:</label><br>
+                            <input type="radio" name="rdoSexo" value="M" required="required">
+                            <label>Naobinarie</label>
+                            <input type="radio" name="rdoSexo" value="F" required="required">
+                            <label>Bolsominion</label><br><br>
+
+                            <label>Endereço:</label> <br>
+                            <input type="text" placeholder="Eu vou te achar" required="required" id="txtEndereco" maxlength="100" size="50"><br><br>
+
+                            <label>Estado</label><br>
+                            <select id="cbxEstado" required="required">
+                                <option value="">-Selecione-</option>
+                                <option value="1">SC</option>
+                                <option value="2">GO</option>
+                            </select><br><br>
+
+                            <label>Cidade</label><br>
+                            <select id="cbxEstado" required="required">
+                                <option value="">-Selecione-</option>
+                                <option value="1">Blumenau</option>
+                                <option value="2">Goiânia</option>
+                            </select><br><br>
+
+                            <label>Telefone:</label> <br>
+                            <input type="tel" placeholder="Telemarketing vai ligar viu" required="required" id="txtNome" maxlength="100" size="50"><br><br>
+
+                            <label>E-mail</label><br>
+                            <input type="email" placeholder="Vou encher sua caixa de mensagem" required="required" size="50" id="txtEmail"><br><br>
+
+                            <label>Áreas de Interesse</label><br>
+                            <input type="checkbox" value="Putaria" id="chkAreasInteresse">
+                            <label>Putaria</label>
+                            <input type="checkbox" value="Jesus" id="chkAreasInteresse">
+                            <label>Jesus</label>
+                            <input type="checkbox" value="Os dois" id="chkAreasInteresse">
+                            <label>Os dois</label><br><br>
+
+                            <label>Mensagem</label><br>
+                            <textarea cols="50" rows="10" placeholder="Digite sua dúvida ou vai tomar pipoco"></textarea><br><br>
+
+                            <input type="submit" value="Enviar" />
+
+                        </form>
+                    </fieldset>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./imagens/logo insta.png" alt="logo insta" height="80px" width="80px"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./imagens/logo twitter.png" alt="logo twitter" height="80px" width="80px"/>
+                    </a>
+                    <li>
+                        <a href="#">
+                            <img src="./imagens/logo fb.jpg" alt="logo facebook" height="80px" width="80px"/>
+                        </a>
+                    </li>
+                </li>
+            </ul>
+        </footer>
+        
+    </body>
+    </html>
